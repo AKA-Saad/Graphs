@@ -1,0 +1,409 @@
+CRITICAL - 2023-02-23 07:47:21 --> Undefined array key "Report"
+in APPPATH\Views\Report\geo_location.php on line 9.
+ 1 APPPATH\Views\Report\geo_location.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Report"', 'APPPATH\\Views\\Report\\geo_location.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\geo_location.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Report/geo_location', [], true)
+ 5 APPPATH\Controllers\Report.php(49): view('Report/geo_location', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->map()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 07:55:17 --> Undefined array key "client_location"
+in APPPATH\Views\Report\geo_location.php on line 70.
+ 1 APPPATH\Views\Report\geo_location.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "client_location"', 'APPPATH\\Views\\Report\\geo_location.php', 70)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\geo_location.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Report/geo_location', [], true)
+ 5 APPPATH\Controllers\Report.php(49): view('Report/geo_location', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->map()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 08:25:07 --> Array to string conversion
+in APPPATH\Views\Report\geo_location.php on line 57.
+ 1 APPPATH\Views\Report\geo_location.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\Report\\geo_location.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\geo_location.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Report/geo_location', [], true)
+ 5 APPPATH\Controllers\Report.php(69): view('Report/geo_location', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->map()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 08:25:56 --> Array to string conversion
+in APPPATH\Views\Report\geo_location.php on line 57.
+ 1 APPPATH\Views\Report\geo_location.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\Report\\geo_location.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\geo_location.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Report/geo_location', [], true)
+ 5 APPPATH\Controllers\Report.php(69): view('Report/geo_location', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->map()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 08:27:17 --> Undefined variable $data
+in APPPATH\Views\Report\geo_location.php on line 57.
+ 1 APPPATH\Views\Report\geo_location.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\Report\\geo_location.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\geo_location.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Report/geo_location', [], true)
+ 5 APPPATH\Controllers\Report.php(69): view('Report/geo_location', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->map()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 08:28:55 --> Array to string conversion
+in APPPATH\Views\Report\geo_location.php on line 57.
+ 1 APPPATH\Views\Report\geo_location.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\Report\\geo_location.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\geo_location.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Report/geo_location', [], true)
+ 5 APPPATH\Controllers\Report.php(69): view('Report/geo_location', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->map()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 08:28:56 --> Array to string conversion
+in APPPATH\Views\Report\geo_location.php on line 57.
+ 1 APPPATH\Views\Report\geo_location.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\Report\\geo_location.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\geo_location.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Report/geo_location', [], true)
+ 5 APPPATH\Controllers\Report.php(69): view('Report/geo_location', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->map()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 08:29:38 --> Undefined array key 0
+in APPPATH\Views\Report\geo_location.php on line 57.
+ 1 APPPATH\Views\Report\geo_location.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\Report\\geo_location.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\geo_location.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Report/geo_location', [], true)
+ 5 APPPATH\Controllers\Report.php(69): view('Report/geo_location', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->map()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 08:29:46 --> Undefined array key 0
+in APPPATH\Views\Report\geo_location.php on line 57.
+ 1 APPPATH\Views\Report\geo_location.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\Report\\geo_location.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\geo_location.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Report/geo_location', [], true)
+ 5 APPPATH\Controllers\Report.php(69): view('Report/geo_location', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->map()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 08:32:09 --> Array to string conversion
+in APPPATH\Views\Report\geo_location.php on line 57.
+ 1 APPPATH\Views\Report\geo_location.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\Report\\geo_location.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\geo_location.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Report/geo_location', [], true)
+ 5 APPPATH\Controllers\Report.php(70): view('Report/geo_location', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->map()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 08:33:17 --> Array to string conversion
+in APPPATH\Views\Report\geo_location.php on line 57.
+ 1 APPPATH\Views\Report\geo_location.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\Report\\geo_location.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\geo_location.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Report/geo_location', [], true)
+ 5 APPPATH\Controllers\Report.php(71): view('Report/geo_location', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->map()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 08:34:03 --> Array to string conversion
+in APPPATH\Views\Report\geo_location.php on line 57.
+ 1 APPPATH\Views\Report\geo_location.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\Report\\geo_location.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\geo_location.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Report/geo_location', [], true)
+ 5 APPPATH\Controllers\Report.php(71): view('Report/geo_location', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->map()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 08:34:54 --> Array to string conversion
+in APPPATH\Views\Report\geo_location.php on line 57.
+ 1 APPPATH\Views\Report\geo_location.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\Report\\geo_location.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\geo_location.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Report/geo_location', [], true)
+ 5 APPPATH\Controllers\Report.php(70): view('Report/geo_location', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->map()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 08:37:20 --> Array to string conversion
+in APPPATH\Views\Report\geo_location.php on line 57.
+ 1 APPPATH\Views\Report\geo_location.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\Report\\geo_location.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\geo_location.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Report/geo_location', [], true)
+ 5 APPPATH\Controllers\Report.php(72): view('Report/geo_location', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->map()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 08:37:23 --> Array to string conversion
+in APPPATH\Views\Report\geo_location.php on line 57.
+ 1 APPPATH\Views\Report\geo_location.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\Report\\geo_location.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\geo_location.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Report/geo_location', [], true)
+ 5 APPPATH\Controllers\Report.php(72): view('Report/geo_location', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->map()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 08:37:35 --> Array to string conversion
+in APPPATH\Views\Report\geo_location.php on line 57.
+ 1 APPPATH\Views\Report\geo_location.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\Report\\geo_location.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\geo_location.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Report/geo_location', [], true)
+ 5 APPPATH\Controllers\Report.php(72): view('Report/geo_location', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->map()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 08:37:38 --> Array to string conversion
+in APPPATH\Views\Report\geo_location.php on line 57.
+ 1 APPPATH\Views\Report\geo_location.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\Report\\geo_location.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\geo_location.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Report/geo_location', [], true)
+ 5 APPPATH\Controllers\Report.php(72): view('Report/geo_location', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->map()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 08:49:31 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\Report\dummy.php on line 112.
+ 1 APPPATH\Views\Report\dummy.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'APPPATH\\Views\\Report\\dummy.php', 112)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\dummy.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Report/dummy', [], true)
+ 5 APPPATH\Controllers\Report.php(16): view('Report/dummy', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 08:49:44 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\Report\dummy.php on line 112.
+ 1 APPPATH\Views\Report\dummy.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'APPPATH\\Views\\Report\\dummy.php', 112)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\dummy.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Report/dummy', [], true)
+ 5 APPPATH\Controllers\Report.php(16): view('Report/dummy', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 08:50:17 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\Report\dummy.php on line 112.
+ 1 APPPATH\Views\Report\dummy.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'APPPATH\\Views\\Report\\dummy.php', 112)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\dummy.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Report/dummy', [], true)
+ 5 APPPATH\Controllers\Report.php(16): view('Report/dummy', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 08:50:19 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\Report\dummy.php on line 112.
+ 1 APPPATH\Views\Report\dummy.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'APPPATH\\Views\\Report\\dummy.php', 112)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\dummy.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Report/dummy', [], true)
+ 5 APPPATH\Controllers\Report.php(16): view('Report/dummy', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 08:50:45 --> Undefined property: App\Controllers\Report::$load
+in APPPATH\Controllers\Report.php on line 15.
+ 1 APPPATH\Controllers\Report.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Report::$load', 'APPPATH\\Controllers\\Report.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 08:57:43 --> Undefined variable $data
+in APPPATH\Views\Report\dummy.php on line 112.
+ 1 APPPATH\Views\Report\dummy.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\Report\\dummy.php', 112)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\dummy.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Report/dummy', [], true)
+ 5 APPPATH\Controllers\Report.php(16): view('Report/dummy', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 09:00:28 --> Undefined variable $data
+in APPPATH\Views\Report\dummy.php on line 112.
+ 1 APPPATH\Views\Report\dummy.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\Report\\dummy.php', 112)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\dummy.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Report/dummy', [], true)
+ 5 APPPATH\Controllers\Report.php(17): view('Report/dummy', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 09:02:23 --> Undefined variable $data
+in APPPATH\Views\Report\dummy.php on line 112.
+ 1 APPPATH\Views\Report\dummy.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\Report\\dummy.php', 112)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\dummy.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Report/dummy', [], true)
+ 5 APPPATH\Controllers\Report.php(17): view('Report/dummy', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 09:02:25 --> Undefined variable $data
+in APPPATH\Views\Report\dummy.php on line 112.
+ 1 APPPATH\Views\Report\dummy.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\Report\\dummy.php', 112)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\dummy.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Report/dummy', [], true)
+ 5 APPPATH\Controllers\Report.php(17): view('Report/dummy', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 10:52:11 --> Invalid file: "report.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('report.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('report')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 10:52:14 --> Invalid file: "report.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('report.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('report')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 10:52:22 --> Invalid file: "report.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('report.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('report')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 10:52:43 --> Invalid file: "report.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('report.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('report')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 12:35:58 --> Attempt to read property "Report" on array
+in APPPATH\Controllers\Report.php on line 11.
+ 1 APPPATH\Controllers\Report.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Report" on array', 'APPPATH\\Controllers\\Report.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 12:36:39 --> Attempt to read property "Report" on array
+in APPPATH\Controllers\Report.php on line 11.
+ 1 APPPATH\Controllers\Report.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Report" on array', 'APPPATH\\Controllers\\Report.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 12:37:11 --> Undefined array key 0
+in APPPATH\Controllers\Report.php on line 12.
+ 1 APPPATH\Controllers\Report.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Report.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 12:37:52 --> Attempt to read property "Threatent" on array
+in APPPATH\Controllers\Report.php on line 13.
+ 1 APPPATH\Controllers\Report.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Threatent" on array', 'APPPATH\\Controllers\\Report.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 12:39:31 --> Attempt to read property "Threatent" on array
+in APPPATH\Controllers\Report.php on line 12.
+ 1 APPPATH\Controllers\Report.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Threatent" on array', 'APPPATH\\Controllers\\Report.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 12:40:07 --> Undefined array key "Threatent"
+in APPPATH\Controllers\Report.php on line 12.
+ 1 APPPATH\Controllers\Report.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Threatent"', 'APPPATH\\Controllers\\Report.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 12:40:08 --> Undefined array key "Threatent"
+in APPPATH\Controllers\Report.php on line 12.
+ 1 APPPATH\Controllers\Report.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Threatent"', 'APPPATH\\Controllers\\Report.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 12:40:21 --> Undefined array key "Threatent"
+in APPPATH\Controllers\Report.php on line 12.
+ 1 APPPATH\Controllers\Report.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Threatent"', 'APPPATH\\Controllers\\Report.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 12:41:21 --> Undefined array key "Threatent"
+in APPPATH\Controllers\Report.php on line 18.
+ 1 APPPATH\Controllers\Report.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Threatent"', 'APPPATH\\Controllers\\Report.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 12:41:45 --> Attempt to read property "Threatent" on array
+in APPPATH\Controllers\Report.php on line 18.
+ 1 APPPATH\Controllers\Report.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Threatent" on array', 'APPPATH\\Controllers\\Report.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 12:43:09 --> Undefined array key "threatned"
+in APPPATH\Controllers\Report.php on line 11.
+ 1 APPPATH\Controllers\Report.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "threatned"', 'APPPATH\\Controllers\\Report.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 12:43:11 --> Undefined array key "threatned"
+in APPPATH\Controllers\Report.php on line 11.
+ 1 APPPATH\Controllers\Report.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "threatned"', 'APPPATH\\Controllers\\Report.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 12:43:20 --> Undefined array key "threatned"
+in APPPATH\Controllers\Report.php on line 11.
+ 1 APPPATH\Controllers\Report.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "threatned"', 'APPPATH\\Controllers\\Report.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

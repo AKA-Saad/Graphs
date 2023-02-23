@@ -1,0 +1,310 @@
+CRITICAL - 2023-02-22 16:51:20 --> Invalid file: "Report.report"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Report.report')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Report.report', [], true)
+ 3 APPPATH\Controllers\Report.php(19): view('Report.report', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-22 16:51:32 --> Invalid file: "Report.report"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Report.report')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Report.report', [], true)
+ 3 APPPATH\Controllers\Report.php(19): view('Report.report', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-22 16:51:33 --> Invalid file: "Report.report"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Report.report')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Report.report', [], true)
+ 3 APPPATH\Controllers\Report.php(19): view('Report.report', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-22 16:51:46 --> Invalid file: "Report.report"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Report.report')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Report.report', [], true)
+ 3 APPPATH\Controllers\Report.php(17): view('Report.report', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-22 16:58:55 --> Invalid file: "Report.report"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Report.report')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Report.report', [], true)
+ 3 APPPATH\Controllers\Report.php(17): view('Report.report', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-22 17:08:44 --> Invalid file: "template/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('template/index', [], true)
+ 3 APPPATH\Controllers\Report.php(15): view('template/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-22 17:11:54 --> Unknown database 'registration'
+in APPPATH\Views\template\index.php on line 167.
+ 1 APPPATH\Views\template\index.php(167): mysqli->__construct('localhost', 'root', 'ROOTPATH\\public', 'registration')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('template/index', [], true)
+ 5 APPPATH\Controllers\Report.php(15): view('template/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-22 17:11:57 --> Unknown database 'registration'
+in APPPATH\Views\template\index.php on line 167.
+ 1 APPPATH\Views\template\index.php(167): mysqli->__construct('localhost', 'root', 'ROOTPATH\\public', 'registration')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('template/index', [], true)
+ 5 APPPATH\Controllers\Report.php(15): view('template/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-22 17:11:58 --> Unknown database 'registration'
+in APPPATH\Views\template\index.php on line 167.
+ 1 APPPATH\Views\template\index.php(167): mysqli->__construct('localhost', 'root', 'ROOTPATH\\public', 'registration')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('template/index', [], true)
+ 5 APPPATH\Controllers\Report.php(15): view('template/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-22 17:12:48 --> Unknown database 'registration'
+in APPPATH\Views\template\index.php on line 167.
+ 1 APPPATH\Views\template\index.php(167): mysqli->__construct('localhost', 'root', 'ROOTPATH\\public', 'registration')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('template/index', [], true)
+ 5 APPPATH\Controllers\Report.php(15): view('template/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-22 17:13:07 --> Unknown database 'registration'
+in APPPATH\Views\template\index.php on line 167.
+ 1 APPPATH\Views\template\index.php(167): mysqli->__construct('localhost', 'root', 'ROOTPATH\\public', 'registration')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('template/index', [], true)
+ 5 APPPATH\Controllers\Report.php(15): view('template/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-22 17:23:39 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\dashboard\layout.php on line 21.
+ 1 APPPATH\Views\dashboard\layout.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'APPPATH\\Views\\dashboard\\layout.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/layout', [], true)
+ 5 APPPATH\Controllers\Report.php(15): view('dashboard/layout', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-22 17:23:49 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\dashboard\layout.php on line 21.
+ 1 APPPATH\Views\dashboard\layout.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'APPPATH\\Views\\dashboard\\layout.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/layout', [], true)
+ 5 APPPATH\Controllers\Report.php(15): view('dashboard/layout', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-22 17:23:50 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\dashboard\layout.php on line 21.
+ 1 APPPATH\Views\dashboard\layout.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'APPPATH\\Views\\dashboard\\layout.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/layout', [], true)
+ 5 APPPATH\Controllers\Report.php(15): view('dashboard/layout', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-22 17:24:29 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\sb_admin_2\layout.php on line 21.
+ 1 APPPATH\Views\sb_admin_2\layout.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'APPPATH\\Views\\sb_admin_2\\layout.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\sb_admin_2\\layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('sb_admin_2/layout', [], true)
+ 5 APPPATH\Controllers\Report.php(15): view('sb_admin_2/layout', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-22 17:24:30 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\sb_admin_2\layout.php on line 21.
+ 1 APPPATH\Views\sb_admin_2\layout.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'APPPATH\\Views\\sb_admin_2\\layout.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\sb_admin_2\\layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('sb_admin_2/layout', [], true)
+ 5 APPPATH\Controllers\Report.php(15): view('sb_admin_2/layout', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-22 17:25:13 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\sb_admin_2\layout.php on line 21.
+ 1 APPPATH\Views\sb_admin_2\layout.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'APPPATH\\Views\\sb_admin_2\\layout.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\sb_admin_2\\layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('sb_admin_2/layout', [], true)
+ 5 APPPATH\Controllers\Report.php(15): view('sb_admin_2/layout', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-22 17:25:14 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\sb_admin_2\layout.php on line 21.
+ 1 APPPATH\Views\sb_admin_2\layout.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'APPPATH\\Views\\sb_admin_2\\layout.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\sb_admin_2\\layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('sb_admin_2/layout', [], true)
+ 5 APPPATH\Controllers\Report.php(15): view('sb_admin_2/layout', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-22 17:25:31 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\sb_admin_2\layout.php on line 21.
+ 1 APPPATH\Views\sb_admin_2\layout.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'APPPATH\\Views\\sb_admin_2\\layout.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\sb_admin_2\\layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('sb_admin_2/layout', [], true)
+ 5 APPPATH\Controllers\Report.php(15): view('sb_admin_2/layout', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-22 17:25:32 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\sb_admin_2\layout.php on line 21.
+ 1 APPPATH\Views\sb_admin_2\layout.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'APPPATH\\Views\\sb_admin_2\\layout.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\sb_admin_2\\layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('sb_admin_2/layout', [], true)
+ 5 APPPATH\Controllers\Report.php(15): view('sb_admin_2/layout', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-22 17:27:31 --> Undefined variable $products
+in APPPATH\Views\report.php on line 30.
+ 1 APPPATH\Views\report.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'APPPATH\\Views\\report.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report', [], true)
+ 5 APPPATH\Controllers\Report.php(15): view('report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-22 17:27:35 --> Undefined variable $products
+in APPPATH\Views\report.php on line 30.
+ 1 APPPATH\Views\report.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'APPPATH\\Views\\report.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report', [], true)
+ 5 APPPATH\Controllers\Report.php(15): view('report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-22 17:27:35 --> Undefined variable $products
+in APPPATH\Views\report.php on line 30.
+ 1 APPPATH\Views\report.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'APPPATH\\Views\\report.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report', [], true)
+ 5 APPPATH\Controllers\Report.php(15): view('report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-22 17:30:48 --> Attempt to read property "day" on bool
+in APPPATH\Controllers\Report.php on line 22.
+ 1 APPPATH\Controllers\Report.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "day" on bool', 'APPPATH\\Controllers\\Report.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-22 17:30:59 --> Attempt to read property "day" on bool
+in APPPATH\Controllers\Report.php on line 22.
+ 1 APPPATH\Controllers\Report.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "day" on bool', 'APPPATH\\Controllers\\Report.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-22 17:31:21 --> Attempt to read property "day" on bool
+in APPPATH\Controllers\Report.php on line 22.
+ 1 APPPATH\Controllers\Report.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "day" on bool', 'APPPATH\\Controllers\\Report.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-22 17:31:24 --> Attempt to read property "day" on bool
+in APPPATH\Controllers\Report.php on line 22.
+ 1 APPPATH\Controllers\Report.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "day" on bool', 'APPPATH\\Controllers\\Report.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-22 17:31:44 --> Attempt to read property "day" on bool
+in APPPATH\Controllers\Report.php on line 22.
+ 1 APPPATH\Controllers\Report.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "day" on bool', 'APPPATH\\Controllers\\Report.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-22 17:31:45 --> Attempt to read property "day" on bool
+in APPPATH\Controllers\Report.php on line 22.
+ 1 APPPATH\Controllers\Report.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "day" on bool', 'APPPATH\\Controllers\\Report.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-22 17:40:47 --> Undefined variable $report
+in APPPATH\Views\report.php on line 11.
+ 1 APPPATH\Views\report.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $report', 'APPPATH\\Views\\report.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report', [], true)
+ 5 APPPATH\Controllers\Report.php(15): view('report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-22 17:48:49 --> syntax error, unexpected string content "Medium_vul", expecting "]"
+in APPPATH\Views\Report\report_view.php on line 69.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Report/report_view', [], true)
+ 3 APPPATH\Controllers\Report.php(16): view('Report/report_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-22 18:56:14 --> foreach() argument must be of type array|object, string given
+in APPPATH\Controllers\Report.php on line 28.
+ 1 APPPATH\Controllers\Report.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Controllers\\Report.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->map()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
